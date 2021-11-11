@@ -1,0 +1,157 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Import Google Font Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link rel="stylesheet" href="mystyle.css">
+    <title> Get Involved </title> 
+</head>
+
+<body>    
+
+<nav>
+    
+ <div>
+<h6><img src="C:\Users\gaura\Desktop\SD FINAL/img1.jpg" alt="logo"></h6>
+</div>
+    
+<ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="getinvolved.html">Get Involved</a></li>
+        <li><a href="supportus.html">Support Us</a></li>
+</ul>     
+</nav> 
+     
+    
+
+    <div class="text_body">
+    <h2> Get Involved With Us</h2>
+    <p> We are always looking for people around the world to join us in making a difference. Below are just some of the ways that you can help and get involved with Volunteers Without Borders. If you think you would like to get involved, or you would like some further information about what we do and how you can help, please fill in the "Contact Us About Getting Involved" form below. </p>
+        
+    </div>
+    <div class="image_list">
+    
+    <ul class="support">
+        <li class="support">
+        <img src = "images/fundraiser.jpg" alt="fundraisers holding MSF banner"/>
+            <h3> Fundraiser </h3>
+            <p> Looking for a way to be a part of the Rise Against Hunger movement? There are a number of ways you can help and fundraise for us. You could do so at a special occasions, athletic events, through corporate support, community fundraisers or even by playing you favourite video games and streaming online! </p>
+        </li>
+    </ul>    
+        
+    <ul class="support">
+        <li class="support">
+        <img src = "images/attend_event.jpg" alt="Two speakers behind desk at MSF event"/>
+            <h3> Attend an Event </h3>
+            <p>  </p>
+        </li>
+    </ul>    
+    
+    <ul class="support">
+        <li class="support">
+        <img src = "images/community.jpg" alt="group of students and lecturers outdoors holding MSF banner"/>
+            <h3> Schools and Universities </h3>
+            <p>  </p>
+        </li>
+    </ul>    
+        
+    <ul class="support">
+        <li class="support">
+        <img src = "images/engage.jpg" alt="Canvasser with clipboard smiling and engaging with community"/>
+            <h3> Engage </h3>
+            <p> There are volunteer opportunities and other ways to participate in our work. These can range from webcasts, voluntering, wearing buttons and badges to spread the message and requesting a speaker to give a talk.</p>
+        </li>
+    </ul>    
+        
+    <ul class="support">
+        <li class="support">
+        <img src = "images/working_with_msf.jpg" alt="MSF worker greeting locals"/>
+            <h3> Work With Us </h3>
+            <p> We have job opportunities and internships in our offices all over the world. We also regularly recruit volunteers for our field projects.</p>
+        </li>
+    </ul >    
+        
+    <ul class="support">
+        <li class="support">
+        <img src = "images/join_us.jpg" alt=""/>
+            <h3> Stand With Refugees and feed them </h3>
+            <p> More than 68.5 million people have been forced to flee their homes, the largest number ever recorded. This global displacement crisis is made worse by countries closing their borders and turning their backs on the most vulnerable people. This is a humanitarian crisis, and it demands a more humane response.</p>
+        </li>
+    </ul>
+        
+    
+    </div>
+
+<div class="forms">
+<h4> Contact Us About Getting Involved</h4>
+    
+    <form>
+    <label for="fname"> First Name</label>
+    <input type="text" id ="fname" name="firstname" placeholder="Please enter your first name">
+    
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Please enter your last name">
+    
+       <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Please enter your email address">
+    
+        <label for="involved">How do you want to get involved?</label>
+    <select id="involved" name="involved">
+      <option value="funraiser">Fundraiser</option>
+      <option value="attend">Attend an Event
+        </option>
+      <option value="schoolsanduni">Schools and Universities</option>
+      <option value="engage">Engage</option>
+      <option value="workwithus">Work With Us</option>
+      <option value="standrefugees">Stand With Refugees</option>
+      <option value="further">Further Information</option> </select>
+        
+    <label for="comments">Further Comments</label>
+    <textarea id="comments" name="comments" placeholder="Any additional questions or comments" style="height:200px"></textarea>        
+      
+        <input type="submit" value="Submit">
+  </form>
+</div>
+    
+<div class="footer">
+
+<p> 
+    <a href="https://www.facebook.com/msf.english" class="fa fa-facebook"></a> 
+    <a href="https://twitter.com/MSF_USA" class="fa fa-twitter"></a> 
+    <a href="https://www.instagram.com/doctorswithoutborders/" class="fa fa-instagram"></a>  
+    <a href="https://www.youtube.com/user/MSF" class="fa fa-youtube"></a>   
+    <a href="https://www.linkedin.com/company/m-decins-sans-fronti-res-msf-" class="fa fa-linkedin"></a>    
+</p> 
+
+<div class="google-maps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3565819642386!2d72.8427024147314!3d19.179621787028477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6f9581d2691%3A0x42fe4d59da239091!2sRise%20Against%20Hunger%20India!5e0!3m2!1sen!2sin!4v1606590229746!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+<div class="grid-container">
+    
+
+    <div><a class="body_text" href="index.html">Home</a></div>
+    
+    
+</div>
+    
+ 
+    
+</div>  
+
+
+    
+</body>   
+ 
+
+    
+</html>

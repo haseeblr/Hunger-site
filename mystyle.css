@@ -1,0 +1,558 @@
+
+/* Nav bar code */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17pt;
+    top: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: .8rem 1rem;
+    text-decoration: none;
+    line-height: 1;
+}
+
+/* Logo Styling */
+
+nav div:first-child h6 {
+    line-height: 0;
+    padding: .8rem 0;
+    text-align: center;
+}
+
+nav div:first-child h6,
+nav ul {
+    margin: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Desktop Display */
+
+@media only screen and (min-width:40em) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        background: pink;   (menu bar)
+        flex-wrap: wrap;
+    }
+
+    nav div:first-child h6 {
+        padding: 0;
+        margin-left: 1rem;
+    }
+
+    nav div:first-child img {
+        height: 60px;
+    }
+
+    nav ul li {
+        border-bottom: none;
+        flex: 1 0 auto;
+    }
+
+    nav ul li a {
+        padding: 1.2rem 1.0rem;
+        margin-right: 6pt;
+    }
+
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #19c589;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu {
+    display: block;
+}
+
+a.body_text:link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #DE2727;
+}
+
+a.body_text:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+a.body_text:visited {
+    color: #DE2727;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DE2727;
+    /* change text red on hover */
+    cursor: pointer;
+}
+
+
+/* Styling for image background text */
+
+.bg-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bg-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 18px 40px;
+    color: red;
+    background-color: white;
+    text-align: center;
+    opacity: .5;
+    font-size: 25px;
+    border-radius: 4px;
+}
+
+.bg-text button:hover {
+    background-color: pink;
+    color: #DE2727;
+    opacity: 1;
+    cursor: pointer;
+
+}
+
+/* top margin to stop overlay of content */
+.main {
+
+    margin-top: 160px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.text_body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div.forms {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* Background image header */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-style: normal;
+}
+
+/* Header 2 Style */
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* Header 2 Style */
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 16pt;
+}
+
+
+/* Header 4 Style */
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+/* Thumbnail List Style Learned from: "https://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/". Code referenced by not directly copied and pasted. Applied to ul, li img, li and li:hover*/
+
+
+ul.support {
+    list-style-type: none;
+    width: auto;
+    padding-left: 0px;
+}
+
+li.support img {
+    float: left;
+    margin: 0 15px 0 0;
+    width: 300px;
+    height: 150px;
+}
+
+li.support p {
+    font-family: 'Roboto', sans-serif;
+}
+
+li.support {
+    padding: 10px;
+    overflow: auto;
+}
+
+li.support:hover {
+    background: pink;
+
+}
+
+div.image_list {
+    margin: 50px;
+}
+
+
+
+/* Gallery style https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive */
+div.gallery {
+    border: 1px solid white;
+}
+
+
+/* Image responsive sizing */
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Image description style */
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: dimgray;
+}
+
+
+
+/* Image Fade in Overlay: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.responsive {
+    padding: 0px 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive */
+@media only screen and (max-width:700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive */
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Background image Style */
+
+.bg {
+
+    background-image: url("C:\Users\gaura\Desktop\SD FINAL/img3.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 500px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Table collapse */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Table Header Properties */
+th {
+
+    text-align: center;
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+}
+
+/* Table Data Properties */
+td {
+
+    text-align: center;
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+page_top {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+
+/* Get Involved Contact Form - guidance from W3 schools on css and html */
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid dimgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: Pink;
+    color: #DE2727;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 6px;
+    border: black;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.radio_donate input[type="radio"] {
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-left: 0px;
+    width: 15px;
+}
+
+.radio_donate label {
+    padding-right: 8px;
+}
+
+.column1 {
+    float: left;
+    width: 100%;
+    padding: 8px 20px;
+}
+
+/* 2-column CSS - https://www.w3schools.com/howto/howto_css_two_columns.asp*/
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 8px 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer Style */
+
+.footer {
+    background-color: pink;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Font Awesome Icons W3 Schools https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    color: #DE2727;
+}
+
+.fa-twitter {
+
+    color: #DE2727;
+}
+
+.fa-instagram {
+
+    color: #DE2727;
+}
+
+.fa-youtube {
+
+    color: #DE2727;
+}
+
+.fa-linkedin {
+
+    color: #DE2727;
+}
+
+
+.fa:hover {
+    opacity: 0.4;
+}
+
+/* Google maps responsive code from https://www.labnol.org/internet/embed-responsive-google-maps/28333/ Applied to .google-maps and .google-maps iframe*/
+
+.google-maps {
+    position: relative;
+    padding-bottom: 35%;
+    /* aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* How to make responsive video: https://medium.com/@mahbub_hemel/how-to-make-your-video-iframe-responsive-a8c5fda821ba */
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 50%;
+    overflow: hidden;
+
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0px;
+}
+
+/* Three column grid container styles */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:white ;
+    padding: 20px;
+    margin-right: -10px;
+    text-align: center;
+}
+
+/* 
+All below code was reproduced from the two below weblinks:
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
+
+https://stackoverflow.com/questions/6446795/how-to-keep-text-opacity-100-when-its-parent-container-is-having-opacity-of-50
+*/
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background: rgba(255, 255, 255, 0.85)
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+
+.textim {
+    color: #484848;
+    font-size: 12px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    width: 95%;
+}

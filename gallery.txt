@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Import Google Font Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+    <title> Gallery </title>
+</head>
+
+<body>
+
+    <nav>
+
+        <div>
+            <h6><img src="images/doctors-without-borders-logo.png" alt="logo"></h6>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="getinvolved.html">Get Involved</a></li>
+            <li><a href="supportus.html">Support Us</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="responsive">
+        <div class="container">
+            <img src="images/year_msf_1.jpg" alt="unwell woman being carried by several men" width="600" height="400" class="gallery">
+
+            <div class="desc">CHAD</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>A young woman, from a camp for internally displaced people in Yakoua town, is carried after travelling more than 30km on a horse and cart to reach the MSF mobile clinic near Bol, Chad.</p><br>DOMINIC NAHR /MAPS
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_2.jpg">
+                <img src="images/year_msf_2.jpg" alt="doctor vaccinating children in Africa" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">SOUTH SUDAN</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Community Health Promoter, Gatbel, tests a child for malaria at an outdoor support clinic in Thaker, Leer County, South Sudan.</p><br>SIEGFRIED MODOLA
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+
+            <a target="_blank" href="images/year_msf_3.jpg">
+                <img src="images/year_msf_3.jpg" alt="Refugee from Iraq covering his face as he arrives in Italy" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">COMO</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>M was sent back, first from France and then Switzerland. He now waits, stuck on the Italian side of the border, in Como.</p><br>GIUSEPPE LA ROSA/MSF
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+
+            <a target="_blank" href="images/year_msf_4.jpg">
+                <img src="images/year_msf_4.jpg" alt="Refugee in Greece peeking from behind curtain" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">GREECE</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Sally, 29, from Nasiriyah in Iraq, fled beatings and violence in Iraq after divorcing her husband. She reached Greece by boat from Turkey, alongside other refugees.</p><br>TANYA HABJOUQA / NOOR IMAGES
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_5.jpg">
+                <img src="images/year_msf_5.jpg" alt="Refugees being rescued at sea during a storm" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">MEDITERRANEAN</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Rescuers from SOS Mediterranee, with whom MSF partners on board the search and rescue ship Aquarius, distribute lifejackets in heavy seas and pouring rain to refugees.</p><br>KEVIN MCELVANEY
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_6.jpg">
+                <img src="images/year_msf_6.jpg" alt="Refugees on a dingy at sea" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">MEDITERRANEAN</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Young men hold on tight as a speedboat transfers them from their wooden boat to the MSF/SOS search and rescue vessel, Aquarius, in the rough seas of the Mediterranean.</p><br>KEVIN MCELVANEY
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_7.jpg">
+                <img src="images/year_msf_7.jpg" alt="Man washing himsel with a water bottle in wasteland" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">SERBIA</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>A man washes outdoors using a plastic bottle at a disused warehouse complex in Belgrade, Serbia. Many hundreds of refugees making their way across Europe have sought shelter from the freezing temperatures of the Serbian winter</p><br>PAUL HANSEN/DAGENS NYHETER
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_8.jpg">
+                <img src="images/year_msf_8.jpg" alt="Two female doctors in an office in Kenya" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">KENYA</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Staff at the MSF clinic in Eastlands, Nairobi, provide care for survivors of sexual and gender-based violence. The 24-hour clinic sees more than 200 patients monthly due to MSF expanding its catchment area </p><br>FREDRIK LERNERYD
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_9.jpg">
+                <img src="images/year_msf_9.jpg" alt="Doctor performing ultrasound on a pregnant woman" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">CHAD</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Dr Henryk Mazurek, MSF gynaecologist-obstetrician at the Bol regional hospital, conducts an ultrasound on a patient who is about to deliver twins, prior to obstetric surgery.</p><br>SARA CRETA/MSF
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_10.jpg">
+                <img src="images/year_msf_10.jpg" alt="A line of trucks in a Nigerian shanty town" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">NIGERIA</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>A security convoy prepares to leave the internally displaced persons camp in Banki. MSF provides medical care, sanitation, food distribution and a mobile medical team.</p><br>SYLVAIN CHERKAOUI/COSMOS
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_11.jpg">
+                <img src="images/year_msf_11.jpg" alt="People awaiting aid in Haiti" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">HAITI</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Residents of Bolosse, in the Haitian mountains, watch the arrival by helicopter of an MSF relief packagae of medical aid and building materials. </p><br>JEANTY JUNIOR AUGUSTIN
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_12.jpg">
+                <img src="images/year_msf_12.jpg" alt="Farmer and his wife and chile in a field in Cambodia" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">CAMBODIA</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Saom Koem (R) lives with his wife, daughter, son-in-law and grandson in Pni Ro Luk, during the planting and harvest seasons. Two years ago Saom Koem contracted malaria but was treated. </p><br>TIM DIRVEN
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_13.jpg">
+                <img src="images/year_msf_13.jpg" alt="Dislocated people comforting each other" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">SYRIA</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Two men embrace each other, tears in their eyes, during a funeral in Tal Abyad for local men who had fought and been killed in the fight for Raqqa.
+                    </p><br>CHRIS HUBY /AGENCE LE PICTORIUM
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="responsive">
+        <div class="container">
+            <a target="_blank" href="images/year_msf_14.jpg">
+                <img src="images/year_msf_14.jpg" alt="A man prays at a loved ones grave" width="600" height="400" class="gallery">
+            </a>
+            <div class="desc">SYRIA</div>
+            <div class="overlay">
+                <div class="textim" style="opacity: 1;">
+                    <p>Ismael sits at the graveside of his friend, Hout, who was killed two days earlier by an Islamic State group sniper in the battle for Raqqa.</p><br>CHRIS HUBY /AGENCE LE PICTORIUM
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="clearfix"></div>
+
+    <div class="footer">
+
+        <p>
+            <a href="https://www.facebook.com/msf.english" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/MSF_USA" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/doctorswithoutborders/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/user/MSF" class="fa fa-youtube"></a>
+            <a href="https://www.linkedin.com/company/m-decins-sans-fronti-res-msf-" class="fa fa-linkedin"></a>
+        </p>
+
+        <div class="google-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.7004085682483!2d6.145775615656477!3d46.216414479117056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c6521de2f3199%3A0x5a083d20e4a97c6!2sDoctors+Without+Borders!5e0!3m2!1sen!2sie!4v1538074559048" width="800" height="600" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="grid-container">
+
+
+            <div><a class="body_text" href="index.html">Home</a></div>
+            <div>Copyright © 2018 Doctors Without Borders. All Rights Reserved.</div>
+            <div>All credit to <a class="body_text" href="https://www.msf.org/">MÉDECINS SANS FRONTIÈRES</a> <i>(external link) </i> </div>
+
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
